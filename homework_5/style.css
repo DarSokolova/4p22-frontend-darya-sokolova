@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: #dcdcdc;
+}
+
+.header{
+    position: fixed;
+    width: 1440px;
+    height: 89px;
+    left: 150px;
+    top: 0px;
+    background: #590bff;
+}
+
+.header_title {
+    position: absolute;
+    width: 403px;
+    height: 63px;
+    left: 28px;
+    top: 6px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 63px;
+    color: #ffffff;
+}
+
+.main_address {
+    width: 1439px;
+    position: fixed;
+    margin: 0px 0px 0px 0px;
+    height: 90vh;
+    background: #ffffff;
+    top: 89px;
+    left: 150px;
+}
+
+.sidebar{
+    position: relative;
+    width: 266px;
+    height: 457px;
+    top: 47px;
+    border-right: 2px solid #C4C4C4;
+}
+
+.sidebar_title {
+    position: absolute;
+    left: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.sidebar_list{
+    position: absolute;
+    left: 14px;
+    top: 64px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar_list-item{
+   margin: 14px; 
+}
+
+.sidebar_list-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #ff8000;
+}
+
+.section_addres {
+    position: absolute;
+    width: 1145px;
+    height: 699px;
+    left: 293px;
+    top: 55px;
+}
+
+.section_addres_scroll {
+    position: absolute;
+    overflow-y: scroll;
+    width: 1145px;
+    height: 796px;
+    top: 0px;
+    left: 0px;
+}
+
+.section_addres_capital-letter-a {
+    width: 1123px;
+    height: 41px;
+    position: sticky;
+    left: 469px;
+    top: 0px;
+    margin: 0;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 39px;
+    padding-left: 11px;
+    background: #590bff;
+}
+
+.section_addres_container-text {
+    list-style-type: none;
+    width: 132px;
+    height: max-content;
+    left: 13px;
+    top: 54px;
+    padding-left: 19px;
+    padding-top: 61px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
