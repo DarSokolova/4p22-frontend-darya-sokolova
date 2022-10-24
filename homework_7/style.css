@@ -207,10 +207,6 @@ body{
         font-size: calc(28 / 768 * 100vw);
         padding-left: calc(15 / 768 * 100vw);
     }
-
-
-
-
     .main-container__agree{
         margin: 0;
     }
