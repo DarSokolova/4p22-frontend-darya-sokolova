@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #1b2473;
+}
+
+.main{
+    max-width: 600px;
+    max-height: 412px;
+    width: 100%;
+    height: 100%;
+}
+
+.container_form{
+    position: relative;
+    width: calc(600/1440*100vw);
+    height: calc(412/1440*100vw);
+    margin-top: calc(82/1440*100vw);
+    margin-left: calc(412/1440*100vw);
+    padding-top: calc(26/1440*100vw);
+    padding-bottom: calc(45/1440*100vw);
+    padding-left: calc(45/1440*100vw);
+    background: #ffffff;
+    box-shadow: 0px 0px 40px 10px rgb(0 0 0 /25%);
+    border-radius: 20px;
+}
+
+.container_form_h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(50/1440*100vw);
+    text-align: center;
+    margin: 0%;
+    margin-top: calc(-5/1440*100vw);
+    color: #787878;
+}
+
+.container_form_registration{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_form_label{
+    position: absolute;
+    top: calc(93/1440*100vw);
+    left: calc(52/1440*100vw);
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(16/1440*100vw);
+    line-height: calc(16/1440*100vw);
+    color: #787878;
+}
+
+.container_form_input{
+    position: absolute;
+    top: calc(112/1440*100vw);
+    width: calc(510/1440*100vw);
+    height: calc(49/1440*100vw);
+    background: #ffffff;
+    border: 2px solid #787878;
+    border-radius: calc(10/1440*100vw);
+    padding-left: calc(13/1440*100vw);
+    padding-top: calc(0/1440*100vw);
+    font-weight: 700;
+    font-size: calc(28/1440*100vw);
+    line-height: calc(36/1440*100vw);
+    color: #CCCCCC;
+    opacity: 50%;
+}
+
+.container_form_label_pass{
+    position: absolute;
+    top: calc(173/1440*100vw);
+}
+
+.container_form_input_pass{
+    position: absolute;
+    top: calc(194/1440*100vw);
+    border-radius: calc(10/1440*100vw);
+    padding-left: calc(11/1440*100vw);
+}
+
+.checkbox_content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-self: center;
+    padding: 1px;
+}
+
